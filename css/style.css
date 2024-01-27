@@ -1,4 +1,178 @@
-body {
-    background-color: #24273a;
-    color: #cad3f5;
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/InterVariable.woff2) format("woff2");
+    font-weight: 100 600;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance:"Regular"
+}
+
+@font-face {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+}
+
+.accent {
+    color: #74c7ec;
+}
+
+.text-ctp-text {
+    color: #cdd6f4;
+}
+
+.text-ctp-subtext {
+    color: #bac2de;
+}
+
+.non-bold {
+    font-weight: 400
+}
+
+
+
+/*Flex class*/
+
+.no-padding {
+    padding-bottom: 0 !important;
+}
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/*Body change*/
+
+main {
+    display: block;
+    margin: auto;
+    max-width: 38em;
+    font-size: 1.3rem;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+* {
+    font-family: Inter;
+    color: #cdd6f4;
+    background-color: #1e1e2e;
+
+}
+
+p, h2 {
+    padding-bottom: 20px;
+}
+
+
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: 0;
+}
+
+
+
+/*Header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.PFP-Username{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.flags{
+    padding-top: 0.25rem;
+    column-gap: 0.5rem;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+
+
+/*Navigation*/
+
+
+
+nav {
+    align-self: center;
+    align-items: center;
+    font-family: Inter;
+    padding-top: 0.75rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+a, button {
+    --tw-text-opacity: 1;
+    color: #74c7ec;
+    text-decoration: none;
+    }
+}
+
+a:hover{
+    text-decoration-line: underline;
+    opacity: 0.5;
+}
+
+
+
+/*Important var*/
+
+
+
+h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+.underline {
+    text-decoration-line: underline;
+}
+.font-extrabold {
+    font-weight: 600;
+}
+
+.Rounded-image{
+    border-radius: 9999px;
+}
+
+@media (min-width: 768px) {
+    .self-center {
+        align-self: center;
+    }
+}
+
+.gap-3 {
+    gap: 0.75rem;
+}
+
+.w-6 {
+    width: 1.5rem;
+}
+
+.h-6 {
+    height: 1.5rem;
 }
