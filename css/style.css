@@ -1,6 +1,7 @@
 @font-face {
-    font-family: Inter;
-    src: url(./assets/fonts/InterVariable.woff2) format("woff2");
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Inter', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Inter&display=swap") format("woff2");
     font-weight: 100 600;
     font-display: swap;
     font-style: normal;
@@ -54,10 +55,18 @@ main {
     margin-bottom: 10px;
 }
 
+li::marker {
+    color: #74c7ec;
+    content: '> ';
+}
+
+body {
+    background-color: #1e1e2e;
+}
+
 * {
     font-family: Inter;
     color: #cdd6f4;
-    background-color: #1e1e2e;
 
 }
 
@@ -101,8 +110,6 @@ header {
 
 /*Navigation*/
 
-
-
 nav {
     align-self: center;
     align-items: center;
@@ -141,12 +148,10 @@ h2 {
     font-size: 1.7rem;
 }
 
-
-
-
-
-
-
+ul {
+    margin: 0;
+    padding-bottom: 20px
+}
 
 .underline {
     text-decoration-line: underline;
