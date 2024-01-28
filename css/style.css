@@ -1,16 +1,10 @@
 @font-face {
-    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-family: 'Inter', sans-serif;
-    src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Inter&display=swap") format("woff2");
+    src: url("assets/fonts/InterVariable.woff2") format("woff2");
     font-weight: 100 600;
     font-display: swap;
     font-style: normal;
     font-named-instance:"Regular"
-}
-
-@font-face {
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
 }
 
 .accent {
@@ -65,7 +59,7 @@ body {
 }
 
 * {
-    font-family: Inter;
+    font-family: 'Inter';
     color: #cdd6f4;
 
 }
