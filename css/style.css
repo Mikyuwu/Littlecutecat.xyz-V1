@@ -1,11 +1,5 @@
-@font-face {
-    font-family: 'Inter', sans-serif;
-    src: url("assets/fonts/InterVariable.woff2") format("woff2");
-    font-weight: 100 600;
-    font-display: swap;
-    font-style: normal;
-    font-named-instance:"Regular"
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .accent {
     color: #74c7ec;
@@ -22,8 +16,6 @@
 .non-bold {
     font-weight: 400
 }
-
-
 
 /*Flex class*/
 
@@ -59,7 +51,7 @@ body {
 }
 
 * {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: #cdd6f4;
 
 }
@@ -107,7 +99,7 @@ header {
 nav {
     align-self: center;
     align-items: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     padding-top: 0.75rem;
     font-size: 1.3rem;
     font-weight: 400;
